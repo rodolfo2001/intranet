@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT  EXISTS intranet;
 
 USE intranet;
 
-CREATE TABLE colaborador;
+CREATE TABLE colaborador
 ( 
     rut_colaborador VARCHAR (10),
     nombre_colaborador CHAR (100),

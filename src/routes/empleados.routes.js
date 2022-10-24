@@ -5,6 +5,7 @@ import {getEmpleados, getEmpleado, postEmpleados, patchEmpleados, deleteEmpleado
 const router = Router()
 
 
+
 router.get('/empleados', getEmpleados)
 router.get('/empleados/:rut', getEmpleado)
 
