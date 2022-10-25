@@ -117,3 +117,4 @@ export const deleteEmpleados = async (req, res) => {
     });
   }
 };
+
