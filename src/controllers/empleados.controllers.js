@@ -85,6 +85,7 @@ export const patchEmpleados = async (req, res) => {
       ]
     );
 
+    
     console.log("EN EL PATCH", result);
 
     if (result.affectedRows === 0)
